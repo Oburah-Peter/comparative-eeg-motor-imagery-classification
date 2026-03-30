@@ -144,7 +144,7 @@ This project includes a lightweight interactive web application that enables rea
 
 ## 🖼️ Demo Preview
 
-![EEG App Demo](images/app.png)
+![EEG App Demo](Images/app.png)
 
 ---
 
