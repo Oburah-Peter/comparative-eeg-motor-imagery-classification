@@ -165,6 +165,7 @@ This project includes a lightweight interactive web application that enables rea
 ```bash
 pip install streamlit tensorflow matplotlib numpy
 streamlit run eeg_motor_imagery_demo_app.py
+```
 
 ## 🧠 Conclusion
 
