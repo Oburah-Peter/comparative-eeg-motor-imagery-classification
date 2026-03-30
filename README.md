@@ -137,6 +137,21 @@ This project includes a lightweight interactive web application that enables rea
 
 - Upload a trained EEGNet model (.keras or .h5)  
 - Upload an EEG trial (.npy format)  
+- Visualize EEG signals  
+- Predict motor imagery class  
+
+---
+
+## 🖼️ Demo Preview
+
+![EEG App Demo](images/app.png)
+
+---
+
+### ✨ Features
+
+- Upload a trained EEGNet model (.keras or .h5)  
+- Upload an EEG trial (.npy format)  
 - Visualize EEG signals:
   - Multi-channel time-series plot  
   - Heatmap representation  
