@@ -111,8 +111,8 @@ The pipeline consists of the following key stages:
 | Model   | Accuracy |
 |--------|--------|
 | SVM    | ~51%   |
-| CNN    | ~55%   |
-| EEGNet | **~79%** ✅ |
+| CNN    | ~51%   |
+| EEGNet | **~83%** ✅ |
 
 ---
 
@@ -144,7 +144,7 @@ This project includes a lightweight interactive web application that enables rea
 
 ## 🖼️ Demo Preview
 
-![EEG App Demo](images/app.png)
+![EEG App Demo](Images/app.png)
 
 ---
 
@@ -165,3 +165,14 @@ This project includes a lightweight interactive web application that enables rea
 ```bash
 pip install streamlit tensorflow matplotlib numpy
 streamlit run eeg_motor_imagery_demo_app.py
+```
+
+## 🧠 Conclusion
+
+This project presented a comparative analysis of three models for EEG motor imagery classification: SVM, 1D CNN, and EEGNet. The results showed that both the SVM and the standard 1D CNN performed close to chance level, indicating that generic machine learning and deep learning approaches struggle to capture meaningful patterns from small and noisy EEG datasets.
+
+The 1D CNN also showed signs of overfitting, where training accuracy increased while validation accuracy remained low.
+
+In contrast, EEGNet achieved the best performance, with a test accuracy of approximately 82.76%. This demonstrates that domain-specific architectures are far more effective for EEG signal classification.
+
+Overall, this project highlights the importance of proper EEG preprocessing, careful model design, and specialized architectures in Brain-Computer Interface applications.
