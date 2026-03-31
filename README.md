@@ -108,11 +108,11 @@ The pipeline consists of the following key stages:
 
 ## 📊 Results
 
-| Model   | Accuracy |
-|--------|--------|
-| SVM    | ~51%   |
-| CNN    | ~51%   |
-| EEGNet | **~83%** ✅ |
+| Model  | Accuracy | F1-score |
+|--------|----------|----------|
+| SVM    | 0.52     | 0.51     |
+| CNN    | 0.48     | 0.47     |
+| EEGNet | 0.83     | 0.83     |
 
 ---
 
