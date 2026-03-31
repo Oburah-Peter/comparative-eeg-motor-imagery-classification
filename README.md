@@ -174,5 +174,3 @@ This project presented a comparative analysis of three models for EEG motor imag
 The 1D CNN also showed signs of overfitting, where training accuracy increased while validation accuracy remained low.
 
 In contrast, EEGNet achieved the best performance, with a test accuracy of approximately 82.76%. This demonstrates that domain-specific architectures are far more effective for EEG signal classification.
-
-Overall, this project highlights the importance of proper EEG preprocessing, careful model design, and specialized architectures in Brain-Computer Interface applications.
